@@ -1,0 +1,37 @@
+
+nav {
+    position: fixed;
+    bottom: 0;
+    left: -120px;
+    width: 110px; /* Set a width for the vertical navigation */
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+    z-index: 999;
+    transition: left 0.6s; /* Smooth transition when changing width */
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    text-align: center;
+}
+
+nav ul li {
+    display: block; /* Change to block to make items vertical */
+    margin-bottom: 10px; /* Adjust the spacing between items */
+}
+
+nav ul li a {
+    display: block;
+    padding: 8px;
+    text-decoration: none;
+    color: #fff;
+    background-color: #022d1d;
+    border: 1px solid #000;
+}
+
+nav:hover{
+    left: 0;
+}
