@@ -18,6 +18,7 @@ document.addEventListener('DOMContentLoaded', function() {
                 break
             }else{
                 alert("Не спам")
+                break
             }
         }
     }
