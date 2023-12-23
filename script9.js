@@ -11,13 +11,14 @@ document.addEventListener('DOMContentLoaded', function() {
     
     isSpam = false
     
-    while (true){
+    while (split != null){
         for(i = 0; i < toFind.length;i++){
             if(isSpam == false){
                 if(str[str.search(toFind[i])])
                 alert("Це спам")
                 break
-            }
+            }else{
+                alert("Не спам")
         }
     }
 });
